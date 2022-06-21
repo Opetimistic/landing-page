@@ -30,7 +30,31 @@ header nav button{
     box-shadow: 2px 2px 2px #e3f2f7;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    animation-duration:  2s;
+    transform-origin: bottom;
+    position: relative;
+    animation-iteration-count: 2;
+    animation-delay: 0.5s ;
+    animation-name: nav-button;
+    
 }
+/* .nav-button:hover{
+    transform: translateX(14px);
+} */
+
+
+@keyframes nav-button {
+    /* from { top: 0px;} 
+    to { top: 30px} */
+    0% {background-color: hsl(192, 100%, 9%);}
+    0% { color: hsl(322, 100%, 66%);}
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+    
+}
+
+
 header nav button:hover{
     cursor: pointer;
     font-weight: 400;
@@ -78,7 +102,25 @@ main .container .container-2 .build .build-button{
     border-radius: 20px;
     margin-top: 2em;
     padding: 0.8em 2.9em;
+    animation: build-button 2s;
+    transform-origin: left;
+    position: relative;
+    animation-iteration-count: 2;
+    animation-delay: 2s ;
+    
 }
+
+@keyframes build-button {
+    /* from { top: 0px;} 
+    to { top: 30px} */
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-15px); }
+    100% { transform: translateX(0); }
+}
+/* .build-button:hover{
+
+} */
+
 main .container .container-2 .build button:hover{
     cursor: pointer;
     background-color: hsl(322, 80%, 73%);
@@ -96,7 +138,10 @@ main .container .container-3 {
     grid-template-rows: 1fr 1fr 1fr 0.2fr;
     padding: 8em 12em 0em 12em;
     grid-gap: 1.5em;
+
 }
+
+
 
 main .container .container-3 .container-3-1 {
 
@@ -109,7 +154,36 @@ main .container .container-3 .container-3-1 {
     align-items: center;
     justify-content: center;
 
-}
+    animation-duration:  2s;
+    transform-origin: bottom;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-delay: 4.5s ;
+    animation-name: container-3-1;
+    
+    }
+
+
+    /* .nav-button:hover{
+    transform: translateX(14px);
+    } */
+    
+    
+    @keyframes container-3-1 {
+    /* from { top: 0px;} 
+    to { top: 30px} */
+    /* 0% {background-color: hsl(192, 100%, 9%);}
+    0% { color: hsl(322, 100%, 66%);} */
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-100px); }
+    100% { transform: translateX(0); }
+    
+    }
+
+
+
+
+
 
 main .container .container-3 .container-3-1 .grow {
     padding: 0em 6em 0em 4em;
@@ -148,7 +222,35 @@ main .container .container-3 .container-3-2{
     -webkit-box-shadow: 0 0 10px #f2f2f2;
     -moz-box-shadow: 0 0 10px #f2f2f2;
     border-radius: 10px;
-}
+
+    animation-duration:  2s;
+    transform-origin: bottom;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-delay: 6.5s ;
+    animation-name: container-3-2;
+    
+    }
+    /* .nav-button:hover{
+    transform: translateX(14px);
+    } */
+    
+    
+    @keyframes container-3-2 {
+    /* from { top: 0px;} 
+    to { top: 30px} */
+    /* 0% {background-color: hsl(192, 100%, 9%);}
+    0% { color: hsl(322, 100%, 66%);} */
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-100px); }
+    100% { transform: translateX(0); }
+    
+    }
+
+
+
+
+
 
 main .container .container-3 .container-3-2 .flowing-img img{
     width: 93%;
@@ -186,7 +288,35 @@ main .container .container-3 .container-3-3{
     -webkit-box-shadow: 0 0 10px #f2f2f2;
     -moz-box-shadow: 0 0 10px #f2f2f2;
     border-radius: 10px;
-}
+
+    animation-duration:  2s;
+    transform-origin: bottom;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-delay: 8.5s ;
+    animation-name: container-3-3;
+    
+    }
+    /* .nav-button:hover{
+    transform: translateX(14px);
+    } */
+    
+    
+    @keyframes container-3-3{
+    /* from { top: 0px;} 
+    to { top: 30px} */
+    /* 0% {background-color: hsl(192, 100%, 9%);}
+    0% { color: hsl(322, 100%, 66%);} */
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-100px); }
+    100% { transform: translateX(0); }
+    
+    }
+
+
+
+
+
 main .container .container-3 .container-3-3 .users{
     padding: 0em 6em 0em 4em;
 
@@ -230,7 +360,34 @@ main .container .container-3 .container-4{
     position: relative;
     top: 10vh;
     text-align: center; 
-}
+
+    animation-duration:  2s;
+    transform-origin: bottom;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-delay: 10s ;
+    animation-name: container-4;
+    
+    }
+    /* .nav-button:hover{
+    transform: translateX(14px);
+    } */
+    
+    
+    @keyframes container-4 {
+    /* from { top: 0px;} 
+    to { top: 30px} */
+    /* 0% {background-color: hsl(192, 100%, 9%);}
+    0% { color: hsl(322, 100%, 66%);} */
+    0%   { transform: translateX(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateX(0); }
+    
+    }
+
+
+
+
 
 main .container .container-3 .container-4 h3.ready{
     font-family: 'Poppins', sans-serif;
@@ -252,7 +409,24 @@ main .container .container-3 .container-4 .ready-button{
     font-weight: 700;
     text-transform: capitalize;
     margin-top: 2em;
-    }
+
+    animation: ready-button 2s;
+    transform-origin: left;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-delay: 12s ;
+    
+}
+
+@keyframes ready-button {
+    /* from { top: 0px;} 
+    to { top: 30px} */
+    0%   { transform: translateX(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateX(0); }
+}
+
+
 
     main .container .container-3 .container-4 .ready-button:hover{
         background-color: hsl(322, 80%, 73%);
